@@ -1,0 +1,318 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #d17cb5;
+  color: #fff;
+  padding: 10px 0;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-section {
+  float: right;
+  margin-top: -20px;
+}
+
+.login-register a {
+  color: #fff;
+}
+
+.language a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+/* Main styles */
+main {
+  background-image: url(https://img.freepik.com/premium-photo/pink-room-with-green-couch-green-couch_114589-1943.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: #000000;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 20px 30px;
+  width: 300px;
+  border: none;
+  border-radius: 20px;
+}
+
+.search-bar button {
+  padding: 15px 30px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #e55e00;
+}
+
+/* Footer styles */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d17cb5;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Properties container */
+.properties-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.property-container {
+  width: 30%;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.property-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #e55e00;
+}
+
+/* New styles for login and register forms */
+.login-form,
+.register-form {
+  margin-top: 50px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.login-form input,
+.register-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.login-form button,
+.register-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover,
+.register-form button:hover {
+  background-color: #e55e00;
+}
+
+/* Add this CSS to your existing styles.css file */
+
+/* Main styles */
+main {
+  background-image: url(https://img.freepik.com/premium-photo/pink-room-with-green-couch-green-couch_114589-1943.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  padding: 150px 0 50px; /* Adjust padding to create space below login form */
+  text-align: center;
+  color: #000000;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #e55e00;
+}
+
+.register-link {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.register-link a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.register-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.register-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff6600;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #e55e00;
+}
+
+.login-link {
+  font-size: 14px;
+  color: #000000;
+  margin-top: 10px; /* Add margin-top for spacing */
+}
+
+.login-link a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+.profile-image {
+  width: 200px; /* Adjust the width as per your requirement */
+  height: auto;
+
+  .second-image {
+    width: 200px; /* Adjust the width as per your requirement */
+    height: auto;
+  }
+
