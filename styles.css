@@ -309,7 +309,8 @@ main {
 
 .profile-image {
   width: 185px; /* Adjust the width as per your requirement */
-  height: 270px;
+  height: 260px;
+  border-radius: 50%;
 }
 
 .social-icons {
@@ -344,3 +345,24 @@ main {
   height: 55px;
 }
 
+
+/* Footer styles */
+footer {
+  position: relative; /* Change position to relative */
+  width: 100%;
+  background-color: #d17cb5;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Main styles */
+main {
+  background-image: url(https://img.freepik.com/premium-photo/pink-room-with-green-couch-green-couch_114589-1943.jpg);
+  background-size: cover;
+  min-height: calc(100vh - 80px); /* Adjust for footer height */
+  padding-bottom: 80px; /* Adjust padding to ensure content is not covered by footer */
+  background-position: center;
+  text-align: center;
+  color: #000000;
+}
