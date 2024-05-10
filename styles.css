@@ -18,7 +18,7 @@ body {
 
 /* Header styles */
 header {
-  background-color: #d17cb5;
+  background-color: #8a2167;
   color: #fff;
   padding: 10px 0;
   position: relative;
@@ -308,7 +308,7 @@ main {
 
 
 .profile-image {
-  width: 185px; /* Adjust the width as per your requirement */
+  width: 170px; /* Adjust the width as per your requirement */
   height: 260px;
   border-radius: 50%;
 }
@@ -350,7 +350,7 @@ main {
 footer {
   position: relative; /* Change position to relative */
   width: 100%;
-  background-color: #d17cb5;
+  background-color: #8a2167;
   color: #fff;
   padding: 20px 0;
   text-align: center;
